@@ -19,8 +19,8 @@ product_name = product_name.replace(' ', '-')[:40]
 #  print((dept_name, product_name))
 url = "https://gateway-staging.ncrcloud.com/catalog/items?itemCodePattern=%s" % product_name
 
-user = "acct:groceryfinder-stg@groceryfinderserviceuser"
-app_key = "8a0084a165d712fd0165db709ba80003"
+user = "acct:groceryfinder2-stg@groceryfinder2serviceuser"
+app_key = "8a0084a165d712fd0165e0b07e830012"
 pwd = ''  # Use password you provided when you created your NCR profile
 
 headers = {'Accept': "application/json",
